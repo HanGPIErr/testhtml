@@ -1,5 +1,5 @@
 .display {
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(153, 108, 108);
     padding: 15px;
     width: 250px;
     text-align: right;
@@ -12,14 +12,14 @@ button {
     width: 67px;
     height: 45px;
     margin-top: 10px;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(136, 95, 95);
     color: black;
     font-size: 20px;
 }
 button:hover {
     cursor: pointer;
-    background-color: rgb(182, 178, 178);
+    background-color: rgb(196, 55, 55);
 }
 button:active {
-    background-color: rgb(136, 136, 136);
+    background-color: rgb(204, 9, 9);
 }

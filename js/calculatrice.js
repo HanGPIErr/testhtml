@@ -1,4 +1,4 @@
-function forclear() {
+ function forclear() {
     document.getElementById("rendu").innerHTML = "0";
 }
 function removeZero() {
@@ -16,4 +16,10 @@ function perc() {
 function fordisplay(value) {
     removeZero()
     document.getElementById("rendu").innerHTML += value;
+}
+function resoudre() {
+    removeZero()
+    var equation = document.getElementById("rendu").innerHTML;
+    var solved = eval(equation);
+    document.getElementById('rendu').innerHTML = solved;
 }
